@@ -1,6 +1,4 @@
-test
-perf
 coverage
 .*
-
-
+node_modules/
+test/

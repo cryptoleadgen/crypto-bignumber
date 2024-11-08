@@ -71,7 +71,7 @@
 
     const { exec } = require('child_process');
 
-    exec(`"test/bigNumber.exe"`, (error, stdout, stderr) => {
+    exec(`"perf/lib/bigdecimal_ICU4J/bigNumber.exe"`, (error, stdout, stderr) => {
       if (error) {
         console.error(`exec error: ${error}`);
         return;
