@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/MikeMcl/bignumber.js.git"
+    "url": "https://github.com/cryptoleadgen/crypto-bignumber"
   },
   "main": "bignumber",
   "module": "bignumber.mjs",

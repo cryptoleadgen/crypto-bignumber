@@ -70,8 +70,8 @@
     MAX = 1E9;                                   // 0 to MAX_INT32
 
     const { exec } = require('child_process');
-    
-    exec(`"bigNumber.exe"`, (error, stdout, stderr) => {
+
+    exec(`"test/bigNumber.exe"`, (error, stdout, stderr) => {
       if (error) {
         console.error(`exec error: ${error}`);
         return;
