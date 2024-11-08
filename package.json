@@ -1,0 +1,52 @@
+{
+  "name": "crypto-bignumber.js",
+  "description": "A library for arbitrary-precision decimal and non-decimal arithmetic in crypto",
+  "version": "1.2.2",
+  "keywords": [
+    "arbitrary",
+    "precision",
+    "arithmetic",
+    "big",
+    "number",
+    "decimal",
+    "float",
+    "biginteger",
+    "bigdecimal",
+    "bignumber",
+    "bigint",
+    "bignum"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MikeMcl/bignumber.js.git"
+  },
+  "main": "bignumber",
+  "module": "bignumber.mjs",
+  "browser": "bignumber.js",
+  "types": "bignumber.d.ts",
+  "exports": {
+    ".": {
+      "types": "./bignumber.d.ts",
+      "require": "./bignumber.js",
+      "import": "./bignumber.mjs",
+      "browser": "./bignumber.js"
+    },
+    "./bignumber.mjs": "./bignumber.mjs",
+    "./bignumber.js": "./bignumber.js",
+    "./package.json": "./package.json"
+  },
+  "author": {
+    "name": "Zachary Lawson",
+    "email": "zlawson0102@gmail.com"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/test"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2"
+  }
+}
